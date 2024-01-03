@@ -1,0 +1,22 @@
+/* add your styles here */
+.app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+  
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+  
+img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
